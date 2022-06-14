@@ -1,0 +1,96 @@
+body{
+    background-color: #D9D9D9;
+}
+h1{
+   background-color: #003665; 
+   color: white;
+   display: flex;
+   margin: 0%;
+   justify-content: center;
+   padding: 24px;
+}
+.navmenu{
+    width: 100%;
+     max-width: 1200px; 
+    
+}
+nav{
+    background-color: #003665;
+}
+nav ul{
+    list-style-type: none;  
+    padding: 0;
+}
+
+nav a{
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+}
+nav a:hover{
+    background-color: #3775ac;
+}
+@media screen and (min-width: 768px) {
+    nav ul{
+        list-style-type: none;
+        display: flex;
+    }
+    nav li{
+        flex: 1 1 0;
+    }
+    
+}
+.wrapper{
+    width: 100%;
+    max-width: 60%;
+    margin: 0  auto;
+    
+}
+.flex-container{
+    width: 100%;
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+}
+
+.box{
+    height: 350px;
+    min-width: 230px;
+    margin: 20px;
+    flex-basis: 200px;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    
+}
+
+.wrapper1{
+    background-color: #003665;
+    height: 175px;
+    min-width: 230px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+#photo{
+    width: 100px;
+    height: 100px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    margin-left: 60px;
+    margin-top: -50px;
+    
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
